@@ -1,5 +1,6 @@
 # Wioletta Koperska
 ## Kim jestem?
+Przykladowy opis 
 ### Doświadczenie
 1. A
 2. B
