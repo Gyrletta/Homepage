@@ -1,0 +1,126 @@
+/* Stylizowanie strony */
+
+html {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.container {
+    width: auto;
+    height: auto;
+    margin: 45px;
+    padding: 10px;
+    color: #222;
+    background: #eee;
+}
+
+.whiteBackground {
+    background: white;
+}
+
+.header {
+    color: crimson;
+}
+
+.subHeader {
+    color: darkred;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+/* Menu */
+
+.list{
+    padding-left: 20px;
+    list-style-type: "--> ";
+    list-style-position: inside;
+}
+
+.listItem{
+    margin: 5px 0;
+    border-bottom: 1px solid #222;
+}
+
+/*Tabela*/
+
+.tableContainer{
+    overflow-x: auto;
+}
+
+.table{
+font-family: "lato";
+border-collapse: collapse;
+width: 100%;
+}
+
+.tableCell{
+    border: 2px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.caption{
+    caption-side: bottom;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.tableHeader{
+    background-color: crimson;
+    color: white;
+    font-weight: normal;
+}
+
+.tableRow:nth-child(even){
+    background: #fff;
+}
+
+.tableRow:hover{
+    background-color: #ddd;
+}
+
+
+/* Sekcje */
+
+.section{
+    border: 1px solid #222;
+    padding: 10px;
+}
+
+
+
+/* Stylowanie Linków, kolejność -> :link :visited :focus :hover :active*/
+
+.link{
+    color: blue;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.link:visited{
+    color: darkred;
+}
+
+.link:focus{
+    outline: 2px solid currentColor; 
+}
+
+.link:hover{
+    color: red;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.link:active{
+    color: brown;
+}
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+  
+<body>
+  <div class="container">
+
+    <h1 class="header">Currency Convert</h1>
+
+      <fieldset class="field">
+
+        <form class="js-form">
+          <label class="form__text">
+            Kwota(PLN)*
+          </label>
+          <input class="form__input js-amount" type="number" autofocus placeholder="Wprowadź kwotę:" required step="0.01" min="0.01">
+          <p>
+            <label class="form__text">
+              Wybierz walutę:
+            </label>
+            <select class="js-currency form__field">
+                <option value="EUR">EUR - Unia Europejska</option>
+                <option value="USD">USD - USA</option>
+                <option value="GBP">GBP - Wielka Brytania</option>
+                <option value="CHF">CHF - Szwajcaria</option>
+              </select>
+          </p>
+
+      </fieldset>
+
+        <p>
+          <button class="form__button">
+            Sprawdź.
+          </button>
+        </p>
+        <p class="js-score form__score"></p>
+      </form>
+
+      <p>
+        Według średniego kursu NBP z dn 17.10.23
+      </p>
+
+  </div>
+  
+</body>
+</html>
