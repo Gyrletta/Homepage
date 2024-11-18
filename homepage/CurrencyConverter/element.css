@@ -1,0 +1,12 @@
+.element{
+    background-image: url("/imagen/body.png");
+    width: auto;
+    height: auto;
+    resize: both;
+    overflow: auto;
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+}
