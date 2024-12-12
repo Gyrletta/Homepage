@@ -1,8 +1,8 @@
 # Wioletta Koperska
 ## Kim jestem?
-Przykladowy opis 
-### Doświadczenie
-1. A
+Od niedawna zgłębiam tajniki programowania i jestem pełna zapału, aby jak najszybciej opanować tę dziedzinę. Wierzę, że zdeterminowanie i ciągła nauka pozwolą mi osiągnąć moje cele. Jestem otwarta na nowe wyzwania i chętnie poznaję różne technologie. Nie mogę się doczekać, kiedy stworzę własne projekty!
+### Doświadczenie w programowaniu
+1. 
 2. B
 3. C
    
