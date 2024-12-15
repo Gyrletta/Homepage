@@ -1,30 +1,20 @@
-# Wioletta Koperska
-## Kim jestem?
-Od niedawna zgłębiam tajniki programowania i jestem pełna zapału, aby jak najszybciej opanować tę dziedzinę. Wierzę, że zdeterminowanie i ciągła nauka pozwolą mi osiągnąć moje cele. Jestem otwarta na nowe wyzwania i chętnie poznaję różne technologie. Nie mogę się doczekać, kiedy stworzę własne projekty!
-### Doświadczenie w programowaniu
-1. 
-2. B
-3. C
-   
-   -
-   -
-   -
+# My homepage
 
-Abc
+![Wioletta]
 
-**Wytluszczenie**
+# Check out the website. (https://github.com/Gyrletta/Homepage/blob/main/imagen/Wioletta.png?raw=true)
+## Description
 
-*Kursywa*
+I'm excited to share my very first homepage! This project represents the start of my frontend development learning experience. While it may be basic, I'm proud of what I've accomplished using *HTML, CSS, JavaScript, Google Fonts, and incorporating Favicon and Open Graph Metadata.*
 
-[Google](https://google.com)
+### Frontend Technologies
+1. Proficient in HTML, 
+2. CSS, 
+3. JavaScript. 
 
-https://google.com
+**Experienced with:** 
+- Google Fonts, 
+- Favicon implementation, 
+- Open Graph Metadata integration.
 
-![Wioletta](https://github.com/Gyrletta/Homepage/blob/main/imagen/Wioletta.png?raw=true)
 
-Fragment kodu: `console.log(5)`
-
-```javascript
-let myNumber = 5;
-console.log(myNumber);
-```
