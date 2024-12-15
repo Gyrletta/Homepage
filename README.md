@@ -3,7 +3,7 @@
 ![Wioletta](https://github.com/Gyrletta/Homepage/blob/main/imagen/Wioletta.png?raw=true)
 
 # Check out the website. 
-[Homepage](homepage/Projekt o mnie)
+[Homepage](homepage/Projekt o mnie/index.html)
 
 ## Description
 
