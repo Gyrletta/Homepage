@@ -1,9 +1,9 @@
 # My homepage
 
-![Wioletta]
-
-# Check out the website. (https://github.com/Gyrletta/Homepage/blob/main/imagen/Wioletta.png?raw=true)
+![Wioletta](https://github.com/Gyrletta/Homepage/blob/main/imagen/Wioletta.png?raw=true)
 ## Description
+
+# Check out the website. 
 
 I'm excited to share my very first homepage! This project represents the start of my frontend development learning experience. While it may be basic, I'm proud of what I've accomplished using *HTML, CSS, JavaScript, Google Fonts, and incorporating Favicon and Open Graph Metadata.*
 
