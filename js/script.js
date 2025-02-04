@@ -1,4 +1,5 @@
-
+{
+    
 const welcome = () => {
     console.log("Witaj na mojej stronie!");
 };
@@ -70,4 +71,6 @@ if (containerDark && containerDark.classList.contains("containerDark")) {
     console.log("Kontener jest ciemny!");
 } else {
     console.log("Kontener nie jest ciemny!");
-}
+};
+
+};
