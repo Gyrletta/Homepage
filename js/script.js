@@ -1,29 +1,42 @@
-// Funkcja powitalna
+
 const welcome = () => {
     console.log("Witaj na mojej stronie!");
 };
 
-// Zmiana tła kontenera
 const onChangeBackgroundClick = () => {
     const container = document.querySelector(".container");
     const button = document.querySelector(".changeBackground");
 
-    // Obsługa przełączania klas dla różnych kolorów tła
+    
+    if (!container.classList.contains("darkBackground")) {
+        container.classList.add("whiteBackground");
+        button.innerText = "Włącz ciemne tło";
+    }
+
+   
     if (container.classList.contains("whiteBackground")) {
         container.classList.remove("whiteBackground");
         container.classList.add("darkBackground");
         button.innerText = "Włącz jasne tło";
-    } else if (container.classList.contains("darkBackground")) {
-        container.classList.remove("darkBackground");
-        container.classList.add("whiteBackground");
-        button.innerText = "Włącz ciemne tło";
     } else {
+        container.classList.remove("darkBackground");
         container.classList.add("whiteBackground");
         button.innerText = "Włącz ciemne tło";
     }
 };
 
-// Obsługa przycisku ukrycia obrazka
+document.addEventListener("DOMContentLoaded", () => {
+    const container = document.querySelector(".container");
+    const button = document.querySelector(".changeBackground");
+
+    if (container.classList.contains("darkBackground")) {
+        button.innerText = "Włącz jasne tło";
+    } else {
+        button.innerText = "Włącz ciemne tło";
+    }
+});
+
+
 const onButtonClick = () => {
     const headerMain = document.querySelector(".header_main");
     const button = document.querySelector(".button");
@@ -37,24 +50,19 @@ const onButtonClick = () => {
     }
 };
 
-// Inicjalizacja funkcji
 const init = () => {
     const changeColorButton = document.querySelector(".changeBackground");
     const toggleImageButton = document.querySelector(".button");
 
-    // Obsługa kliknięcia zmiany tła
     changeColorButton.addEventListener("click", onChangeBackgroundClick);
 
-    // Obsługa kliknięcia ukrycia/pokazania obrazka
     toggleImageButton.addEventListener("click", onButtonClick);
 
     welcome();
 };
 
-// Uruchomienie skryptu
 init();
 
-// Sprawdzenie klasy kontenera
 const containerDark = document.querySelector(".containerDark");
 console.log(containerDark);
 
